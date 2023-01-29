@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import '../index.css'
 
 function Submit(props) {
   const onClick = () => {
@@ -12,16 +13,18 @@ function Submit(props) {
     }
   }
   return (
-    <div>
-      <input
-        id="search"
-        type="text"
-        placeholder="Elote"
-        onKeyDown={handleKeyDown}
-      />
-      <button onClick={onClick}>
-        Submintttt
-      </button>
+    <div className="banner">
+      <div className="searchBar">
+        <input
+          id="search"
+          type="text"
+          placeholder="Elote"
+          onKeyDown={handleKeyDown}
+        />
+        <button onClick={onClick}>
+          Submintttt
+        </button>
+      </div>
     </div>
   )
 }

@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  height: 4rem;
+  padding: 2px;
+  justify-content: flex-end;
+}
+
+.searchBar {
+  height: 2rem;
+  align-self: center;
+}
