@@ -18,10 +18,19 @@ code {
   background-color: red;
   height: 4rem;
   padding: 2px;
-  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.tittie {
+  align-self: center;
 }
 
 .searchBar {
   height: 2rem;
   align-self: center;
+}
+
+.resultContainer {
+  background-color: black;
+  color: white;
 }
